@@ -1,0 +1,54 @@
+/* External CSS File - Component-based Styling */
+
+/* Basic reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header component */
+.header {
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Main content component */
+.main-content {
+  background-color: lightgray;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* Course info component */
+.course-info {
+  background-color: white;
+  padding: 15px;
+  margin: 10px;
+  border: 2px solid black;
+}
+
+/* Pricing section component */
+.pricing {
+  background-color: yellow;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* Price box component */
+.price-box {
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+/* Footer component */
+.footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}

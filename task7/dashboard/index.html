@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beltagy Admin Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css" />
+  </head>
+  <body>
+    <div class="dashboard">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="logo">Beltagy<span>Admin</span></div>
+
+        <nav class="nav-links">
+          <a href="#" class="nav-link active"> <span>📊</span> Dashboard </a>
+          <a href="#" class="nav-link"> <span>👥</span> Users </a>
+          <a href="#" class="nav-link"> <span>📦</span> Products </a>
+          <a href="#" class="nav-link"> <span>💰</span> Sales </a>
+          <a href="#" class="nav-link"> <span>📝</span> Reports </a>
+          <a href="#" class="nav-link"> <span>⚙️</span> Settings </a>
+        </nav>
+
+        <div class="user-profile">
+          <div class="profile-info">
+            <div class="profile-image">MB</div>
+            <div>
+              <div class="profile-name">Mohammad Beltagy</div>
+              <div class="profile-role">Admin</div>
+            </div>
+          </div>
+          <a href="#" class="nav-link"> <span>🚪</span> Logout </a>
+        </div>
+      </aside>
+
+      <!-- Header -->
+      <header class="header">
+        <div class="search-bar">
+          <span>🔍</span>
+          <input type="text" placeholder="Search..." />
+        </div>
+        <div class="header-actions">
+          <div class="notification-icon">🔔</div>
+          <div class="settings-icon">⚙️</div>
+        </div>
+      </header>
+
+      <!-- Main Content -->
+      <main class="main-content">
+        <section class="welcome-message">
+          <h1>Welcome back, Mohammad</h1>
+          <p>Here's what's happening with your store today.</p>
+        </section>
+
+        <section class="stats-cards">
+          <div class="stat-card">
+            <div class="stat-icon users">👥</div>
+            <div class="stat-info">
+              <h3>1,248</h3>
+              <p>Total Users</p>
+            </div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-icon sales">💰</div>
+            <div class="stat-info">
+              <h3>324</h3>
+              <p>Today's Sales</p>
+            </div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-icon revenue">📈</div>
+            <div class="stat-info">
+              <h3>$12,845</h3>
+              <p>Revenue</p>
+            </div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-icon orders">📦</div>
+            <div class="stat-info">
+              <h3>1,024</h3>
+              <p>New Orders</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="charts-and-table">
+          <div class="chart-container">
+            <div class="chart-header">
+              <h2>Sales Progress</h2>
+            </div>
+            <div class="progress-bars">
+              <div class="progress-category">
+                <div class="progress-info">
+                  <span>Electronics</span>
+                  <span>75%</span>
+                </div>
+                <div class="progress-bar">
+                  <div
+                    class="progress-fill electronics"
+                    style="width: 75%"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress-category">
+                <div class="progress-info">
+                  <span>Clothing</span>
+                  <span>60%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill clothing" style="width: 60%"></div>
+                </div>
+              </div>
+
+              <div class="progress-category">
+                <div class="progress-info">
+                  <span>Home Goods</span>
+                  <span>45%</span>
+                </div>
+                <div class="progress-bar">
+                  <div
+                    class="progress-fill home-goods"
+                    style="width: 45%"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="progress-category">
+                <div class="progress-info">
+                  <span>Books</span>
+                  <span>90%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill books" style="width: 90%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="chart-container">
+            <div class="chart-header">
+              <h2>Recent Activity</h2>
+            </div>
+            <img
+              src="https://placehold.co/400x300?text=Activity+Chart"
+              alt="Activity Chart"
+              style="width: 100%"
+            />
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <p>&copy; 2025 Beltagy Admin Dashboard. Designed by Mohammad Beltagy</p>
+      </footer>
+    </div>
+  </body>
+</html>
