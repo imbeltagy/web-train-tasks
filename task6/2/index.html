@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 6-2 >> CSS position, float, display, overflow</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Fixed Header -->
+    <header class="header">
+      <div class="logo">
+        <h1>CSS Demo</h1>
+      </div>
+      <nav class="navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Sticky Sidebar -->
+    <aside class="sidebar">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#section1">Section 1</a></li>
+        <li><a href="#section2">Section 2</a></li>
+        <li><a href="#section3">Section 3</a></li>
+        <li><a href="#section4">Section 4</a></li>
+      </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Hero Section -->
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <h2>Welcome to CSS Properties Demo</h2>
+          <p>This page demonstrates CSS properties in a real-world context</p>
+          <button class="cta-button">Learn More</button>
+        </div>
+        <div class="hero-image">
+          <div class="image-placeholder">Hero Image</div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="about">
+        <h2>About Our CSS Techniques</h2>
+        <div class="about-grid">
+          <div class="about-card">
+            <h3>Positioning</h3>
+            <p>
+              We use various positioning techniques to create layouts that work
+              across different devices and screen sizes.
+            </p>
+          </div>
+          <div class="about-card">
+            <h3>Floating Elements</h3>
+            <p>
+              Float properties help us create flexible layouts and text wrapping
+              around images and other elements.
+            </p>
+          </div>
+          <div class="about-card">
+            <h3>Display Properties</h3>
+            <p>
+              Different display values allow us to control how elements behave
+              in the document flow.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section with Float Layout -->
+      <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="services-container">
+          <div class="service-item">
+            <div class="service-icon">🎨</div>
+            <h3>Web Design</h3>
+            <p>
+              Creating beautiful and functional websites using modern CSS
+              techniques including flexbox, grid, and positioning.
+            </p>
+          </div>
+          <div class="service-item">
+            <div class="service-icon">⚡</div>
+            <h3>Performance</h3>
+            <p>
+              Optimizing CSS for better performance and faster loading times
+              across all devices.
+            </p>
+          </div>
+          <div class="service-item">
+            <div class="service-icon">📱</div>
+            <h3>Responsive Design</h3>
+            <p>
+              Building websites that adapt to different screen sizes using CSS
+              media queries and flexible layouts.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Content with Overflow Examples -->
+      <section id="section1" class="content-section">
+        <h2>CSS Properties in Detail</h2>
+        <div class="content-grid">
+          <div class="content-box">
+            <h3>Position Examples</h3>
+            <div class="position-demo">
+              <div class="demo-static">Static</div>
+              <div class="demo-relative">Relative</div>
+              <div class="demo-absolute">Absolute</div>
+            </div>
+          </div>
+
+          <div class="content-box">
+            <h3>Overflow Examples</h3>
+            <div class="overflow-demo">
+              <div class="overflow-scroll-demo">
+                <h4>Scrollable Content</h4>
+                <p>
+                  This content demonstrates overflow: scroll. When the content
+                  exceeds the container height, scrollbars appear automatically.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery Section -->
+      <section id="section2" class="gallery">
+        <h2>Image Gallery</h2>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <div class="image-placeholder">Image 1</div>
+            <p>Gallery Item 1</p>
+          </div>
+          <div class="gallery-item">
+            <div class="image-placeholder">Image 2</div>
+            <p>Gallery Item 2</p>
+          </div>
+          <div class="gallery-item">
+            <div class="image-placeholder">Image 3</div>
+            <p>Gallery Item 3</p>
+          </div>
+          <div class="gallery-item">
+            <div class="image-placeholder">Image 4</div>
+            <p>Gallery Item 4</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
